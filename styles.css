@@ -1,0 +1,116 @@
+.nav{
+    font-size: 1.7rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 1%;
+    position: sticky;
+    margin-left: 6%;
+    margin-right: 6%;
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+}
+.section1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px 5px;
+    margin: 7%;
+    margin-top: 3%;
+}
+img{
+    width: 99%;
+    height: 60vh;
+}
+.para1{
+    font-size: 1.5rem;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    text-align: center;
+}
+.para2{
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-align: center;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    padding: 1%;
+}
+.numbers>span{
+    border: 1px solid black;
+    padding: 15px;
+    border: none;
+}
+.numbers>span:hover{
+    background-color: black;
+    color: white;
+}
+.aboutme{
+    box-shadow: 0px -0.1px 0px 0px grey;
+    padding: 1%;
+}
+.img9{
+    width: 60%;
+    margin: auto;
+}
+.section2{
+    text-align: center;
+}
+.main{
+    text-align-last: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-right: 7%;
+    margin-left: 10%;
+}
+.about{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.passion{
+    font-style: italic;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5%;
+    gap: 80px;
+    margin-right: 8%;
+    margin-top: 8%;
+    padding: 3%;
+    box-shadow: 0px -0.2px 0px 0px grey;
+}
+.b1{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.b2{
+    display: flex;
+    gap: 0px 30px;
+    box-shadow: 0px -0.2px 0px 0px grey;
+}
+.b2>img{
+    width: 30%;
+    height: 9vh;
+}
+.b3{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.b2:hover{
+    background-color: grey;
+}
+.b3>p{
+    background-color: grey;
+    margin: 1%;
+}
+span{
+    font-size: 1.4rem;
+    font-weight: 100;
+}
